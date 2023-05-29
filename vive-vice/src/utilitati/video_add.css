@@ -1,0 +1,96 @@
+.video_add{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.video_add form{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    padding: 30px;
+}
+
+.video_input{
+    width: 100%;
+    display: none;
+}
+
+.file-label{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #202020;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
+
+.file-label:hover {
+    background-color: black;
+}
+
+.thumbnail_d{
+    display: none;
+}
+
+.thumbnail{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #202020;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
+.video_con_pol video{
+    width: 100%;
+}
+
+.video_con_pol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.kill{
+    padding: 10px;
+    width: 30%;
+}
+.kill input{
+ width: 100%;
+ padding: 10px;
+}
+.olk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.olk textarea{
+width: 100%;
+}
+.olk button{
+    margin: 10px;
+}
+.kill textarea{
+    width: 100%;
+}
+@media(max-width:767px){
+    .kill video{
+        display: none;
+    }
+}
